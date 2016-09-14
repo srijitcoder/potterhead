@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	<title>
+		PotterHead
+	</title>
+
+	<!-- Bootstrap CSS Library -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Bg Slider Library -->
+	<link rel="stylesheet" href="css/sliderVegas.min.css">
+	<!-- Font-Awesome CSS Library -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<!-- Animate.css CSS Library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+	<!-- Default CSS Style -->
+	<link rel="stylesheet" href="css/style.css">
+	
+	<link rel="icon" href="icon.png" />
+
+	<!-- JQuery JS Library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Bootstrap JS Library -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Default JS Library -->
+	<script src="js/potterhead.js"></script>
+	<!-- Bg Slider JS Library -->
+	<script src="js/sliderVegas.min.js"></script>
+
+</head>
+
+<body>
+
+	<!-- Header with navigation and hero Bg -->
+	<div class="headBg" style="height:100%;">
+		<div class="container">
+			<div class="row" style="margin-top:50px;">
+				<div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+						<i class="fa fa-bolt fa-3x" style='color:#ff9900;'></i>
+						<span class="potter_logo"> <span style='color:#ff9900'>Potter</span>head</span>
+				</div>
+				<div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+						<i class="fa fa-bars nav_bar" style="font-size: 30px;"></i>
+				</div>
+
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top:100px;">
+					<center>
+						<img src="img/potter1.png" class="potter animated pulse forever"><br>
+						<h1 class="potter_main"> "ONCE A POTTERHEAD<BR>ALWAYS BE A POTTERHEAD" </h1>
+						<span class="potter_logo_t animated slideInUp "><u>Always Be!</u></span>
+					</center>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Header Ends -->
+
+	<!-- HP and The Philosopher Stone Section -->
+	<section>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 imgSection" style="background: url('img/hp1.png');background-size:cover;">
+		<div class="tabPadding">
+			<center>
+				<i class="novelLogo fa fa-diamond animated tada forever" style='font-size:90px;'></i><br><br><br>
+				<h1 class="novelName"> "Harry Potter and the Philosopher's Stone" </h1>
+			</center>
+		</div>
+
+		<div class="tabHover">
+			<div class="tabHoverPlay" onclick="play(1)">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<center>
+					<div class="tabPlay">
+						<i class="fa fa-play-circle animated flipInX"></i>
+					</div>
+					</center>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 textSection">
+			<div class="textPadding">
+				<div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
+					<center>
+						<h1 class="JKQuotes">“It takes a great deal of bravery to stand up to our enemies, but just as much to stand up to our friends.”</h1>
+						<span class="JKChar">- Albus Dumbledore</span><br><br>
+						<button type="button" class="functionBut" onclick="about()">About</button>
+					</center>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- HP and The Philosopher Stone Ends -->
+
+	<!-- HP and The Chamber of Secrets Section -->
+	<section>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 textSection">
+			<div class="textPadding">
+				<div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
+					<center>
+						<h1 class="JKQuotes">“Harry Potter must not go back to Hogwarts this year! If Harry Potter goes back to school, he will be in great danger!”</h1>
+						<span class="JKChar">- Dobby The Free Elf</span><br><br>
+						<button type="button" class="functionBut" onclick="sort()">The Sorting Hat</button>
+					</center>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 imgSection" style="background: url('img/hp2.jpg');">
+		<div class="tabPadding">
+			<center>
+				<i class="novelLogo fa fa-google-wallet  animated rubberBand forever" style='font-size:90px;'></i><br><br><br>
+				<h1 class="novelName"> "Harry Potter and the Chamber of Secretes" </h1>
+			</center>
+		</div>
+
+		<div class="tabHover">
+			<div class="tabHoverPlay" onclick="play(2)">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<center>
+					<div class="tabPlay">
+						<i class="fa fa-play-circle animated flipInX"></i>
+					</div>
+					</center>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	<!-- HP and The Chamber of Secrets Ends -->
+
+	<!-- HP and The Prisoner of Azkaban Section -->
+	<section>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 imgSection" style="background: url('img/hp3.jpg');">
+		<div class="tabPadding">
+			<center>
+				<i class="novelLogo fa fa-bolt  animated wobble forever" style='font-size:90px;'></i><br><br><br>
+				<h1 class="novelName"> "Harry Potter and the Prisoner of Azkaban" </h1>
+			</center>
+		</div>
+
+		<div class="tabHover">
+			<div class="tabHoverPlay" onclick="play(3)">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<center>
+					<div class="tabPlay">
+						<i class="fa fa-play-circle animated flipInX"></i>
+					</div>
+					</center>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 textSection">
+			<div class="textPadding">
+				<div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
+					<center>
+						<h1 class="JKQuotes">"You think the dead we loved truly ever leave us? You think that we don't recall them more clearly in times of great trouble? The people we love truly are always around, even when they are gone."</h1>
+						<span class="JKChar">- Sirius Black</span><br><br>
+						<button type="button" class="functionBut" onclick="fact()"  style="margin-top:50px;">The Facts</button>
+					</center>
+				</div>
+			</div>			
+		</div>
+	</section>	
+	<!-- HP and The Prisoner of Azkaban Ends -->
+
+	<!-- HP and The Goblet of Fire Section -->
+	<section>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 textSection">
+			<div class="textPadding">
+				<div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
+					<center>
+						<h1 class="JKQuotes">“As a matter of fact, I have. Might consider doing the same thing now and again yourself.”</h1>
+						<span class="JKChar">- Rubeus Hagrid</span><br><br>
+						<button type="button" class="functionBut" onclick="about()">About</button>
+					</center>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 imgSection" style="background: url('img/hp4.jpg');">
+		<div class="tabPadding">
+			<center>
+				<i class="novelLogo fa fa-fire  animated flip forever" style='font-size:90px;'></i><br><br><br>
+				<h1 class="novelName"> "Harry Potter and the Goblet of Fire" </h1>
+			</center>
+		</div>
+
+		<div class="tabHover">
+			<div class="tabHoverPlay" onclick="play(4)">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<center>
+					<div class="tabPlay">
+						<i class="fa fa-play-circle animated flipInX"></i>
+					</div>
+					</center>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>	
+	<!-- HP and The Goblet of Fire Ends -->
+
+	<!-- HP and The Order of Phoenix Section -->
+	<section>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 imgSection" style="background: url('img/hp5.jpg');">
+		<div class="tabPadding">
+			<center>
+				<i class="novelLogo fa fa-magic  animated jello forever" style='font-size:90px;'></i><br><br><br>
+				<h1 class="novelName"> "Harry Potter and the Order of Phoenix" </h1>
+			</center>
+		</div>
+
+		<div class="tabHover">
+			<div class="tabHoverPlay" onclick="play(5)">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<center>
+					<div class="tabPlay">
+						<i class="fa fa-play-circle animated flipInX"></i>
+					</div>
+					</center>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 textSection">
+			<div class="textPadding">
+				<div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
+					<center>
+						<h1 class="JKQuotes">“ The silence was unbearable to him. If the pictures could have reflected the feelings inside him, they would have been screaming in pain.”</h1>
+						<span class="JKChar">- Harry Potter</span><br><br>
+						<button type="button" class="functionBut" onclick="sort()">The Sorting Hat</button>
+					</center>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- HP and The Order Of Phoenix Ends -->
+
+	<!-- HP and The Half Blood Prince Section -->
+	<section>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 textSection">
+			<div class="textPadding">
+				<div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
+					<center>
+						<h1 class="JKQuotes">“You dare use my own spells against me, Potter? It was I who invented them — I, the Half-Blood Prince!”</h1>
+						<span class="JKChar">- Severus Snape</span><br><br>
+						<button type="button" class="functionBut" onclick="fact()">The Facts</button>
+					</center>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 imgSection" style="background: url('img/hp6.jpg');">
+		<div class="tabPadding">
+			<center>
+				<i class="novelLogo fa fa-tint  animated bounce forever" style='font-size:90px;'></i><br><br><br>
+				<h1 class="novelName"> "Harry Potter and the Half Blood Prince" </h1>
+			</center>
+		</div>
+
+		<div class="tabHover">
+			<div class="tabHoverPlay" onclick="play(6)">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<center>
+					<div class="tabPlay">
+						<i class="fa fa-play-circle animated flipInX"></i>
+					</div>
+					</center>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>	
+	<!-- HP and The Half Blood Prince Ends -->
+
+	<!-- HP and The Deathly Hallows Section -->
+	<section>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 imgSection" style="background: url('img/hp7.jpg');">
+		<div class="tabPadding">
+			<center>
+				<img src="img/dh_logo.png" style="width:120px;" class="novelLogo   animated tada forever"><br><br><br>
+				<h1 class="novelName"> "Harry Potter and the Deathly Hallows" </h1>
+			</center>
+		</div>
+
+		<div class="tabHover">
+			<div class="tabHoverPlay" onclick="play(7)">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<center>
+					<div class="tabPlay">
+						<i class="fa fa-play-circle animated flipInX"></i>
+					</div>
+					</center>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 textSection">
+			<div class="textPadding">
+				<div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
+					<center>
+						<h1 class="JKQuotes">“People die every day. Friends, family. Yeah, we lost Harry tonight. But he's still with us, in here. So Fred, and Remus, Tonks... all of them. They didn't die in vain. But you will, 'cause you're wrong!'”</h1>
+						<span class="JKChar">- Neville Longbottom</span><br><br>
+						<button type="button" class="functionBut"  style="margin-top:50px;" onclick="about()">About</button>
+					</center>
+				</div>
+			</div>			
+		</div>
+	</section>
+	<!-- HP and The Deathly Hallows Ends -->
+
+	<!-- Footer with copywrite and social -->
+	<div class="footer col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="container">
+				<div class="row"  style="margin-top:10px;">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<center>
+						<span class="copy">&copy Potterhead 2016-17</span>
+					</center>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<center>
+						<span class="JKR" style="float:center;">Made With <i class="fa fa-heart" style="color:red;"> </i> to JK Rowling</span>
+					</center>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<center>
+						<span class="social" style="float:center;"> <i class="fa fa-facebook"></i> <i class="fa fa-twitter"> </i> <i class="fa fa-google-plus"></i> <i class="fa fa-instagram"></i></span>
+					</center>
+					</div>
+				</div>
+			</div>
+	</div>
+	<!-- Footer Ends -->
+
+	<!-- Display None Elements which will queried by JQuery Later -->
+	<!-- Navigation Bar -->
+	<div class="nav">
+		<nav>
+			<div class="navtab animated zoomIn">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<center>
+								<h1 class="navtext" onclick="about()">ABOUT</h1>
+								<h1 class="navtext" onclick="sort()">THE SORTING HAT</h1>
+								<h1 class="navtext" onclick="fact()">The Facts</h1>
+							</center>
+						</div>
+					</div>
+				</div> 
+			</div>
+			<div class="closeNav">
+				X
+			</div>
+		</nav>
+	</div>
+
+	<div class="video">
+		<div class="videoTabRelative animated zoomIn">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<center>
+				<video controls="" autoplay="" src="video/1.mp4" class="videoTab"></video>
+			</center>
+			</div>
+			<div class="closeNav" id="videoClose">
+				X
+			</div>
+		</div>
+	</div>
+	<!-- Navigation Ends -->
+
+	<!-- About Section -->
+	<div class="aboutHP">
+		<div class="aboutHPRel">
+			<div class="abouttab animated zoomIn">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<center>
+								<h1 class="HeadingTxt">About</h1><br><br>
+								<p class="abouttext">
+									Harry Potter is a series of fantasy novels written by British author J. K. Rowling. The novels chronicle the life of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry . The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic, and subjugate all wizards and Muggles.<br><br>
+
+									A series of many genres, including fantasy, drama, coming of age and the British school story (which includes elements of mystery, thriller, adventure, horror and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references. According to Rowling, the main theme is death. Other major themes in the series include prejudice, corruption, and madness.
+								</p>
+							</center>
+						</div>
+					</div>
+				</div> 
+			</div>
+			<div class="closeNav" id="closeAbout">
+				X
+			</div>
+		</div>
+	</div>	
+	<!-- About Ends -->
+
+	<!-- The Sorting Hat Game -->
+	<div class="sortHP">
+		<div class="sortHPRel">
+			<div class="sorttab animated zoomIn">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<center>
+								<h1 class="HeadingTxt">The Sorting Hat</h1><br><br>
+								<p class="abouttext">
+									<img src="img/sort.png" class="sortingHat">
+									<br><br>
+									<i class="fa fa-spinner fa-pulse load fa-2x fa-fw"></i>
+								</p>
+							</center>
+						</div>
+					</div>
+				</div> 
+			</div>
+			<div class="closeNav" id="closeSort">
+				X
+			</div>
+		</div>
+	</div>
+	<!-- The Sorting Hat Ends -->
+
+	<!-- The Facts Section -->
+	<div class="factHP">
+		<div class="factHPRel">
+			<div class="facttab animated zoomIn">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="factPad">
+							<center>
+								<h1 class="HeadingTxt">The Facts</h1><br><br>
+								<p class="abouttext animated zoomIn" id="facts">
+								</p><br>
+								<i class="fa fa-chevron-circle-right fa-3x nextFact" onclick="facts()"></i>
+							</center>
+						</div>
+						</div>
+					</div>
+				</div> 
+			</div>
+			<div class="closeNav" id="closeFact">
+				X
+			</div>
+		</div>
+	</div>	
+	<!-- The Facts Ends -->
+	<!-- Display None Part Ends-->
+
+
+<script type="text/javascript">
+
+	// Vegas Bg Slider Library Declaration
+	$(".headBg").vegas({
+	    slides: [
+	    	{ src: "img/2.jpg" },      
+	    	{ src: "img/3.jpg" },
+	    	{ src: "img/4.jpg" },
+	    	{ src: "img/5.jpg" },
+	    	{ src: "img/6.jpg" }
+	    ]
+	});
+
+</script>
+</body>
+</html>
